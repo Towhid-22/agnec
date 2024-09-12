@@ -1,0 +1,35 @@
+#success{
+  margin-top: 170px;
+  .success{
+    padding: 83px 0 86px 50px;
+    background: #E0FFF9;
+    border-radius: 20px;
+    .left{
+      h4{
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 120%;
+        color: #6a4df4;
+        margin-bottom: 15px;
+      }
+      h3{
+        font-size: 35px;
+        font-weight: 600;
+        color: #151515;
+        width: 387px;
+      }
+    }
+    h5{
+      font-size: 50px;
+      font-weight: 700;
+      color: #151515;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 120%;
+      color: $para_color;
+    }
+  }
+}

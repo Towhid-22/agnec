@@ -1,0 +1,50 @@
+#agenc {
+  padding: 150px 0 106px 0;
+  .agenc {
+    h2 {
+      @include heading2;
+      width: 360px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    p {
+      @include paragraph;
+      width: 802px;
+      margin: 0 auto;
+    }
+    .agenc_items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .images {
+        img {
+          margin-top: 88px;
+          height: 428px;
+          width: 428px;
+        }
+      }
+      .choose_item {
+        .item_wrapper {
+          display: flex;
+          .items {
+            margin-top: 88px;
+            margin-right: 103px;
+            img {
+              margin-bottom: 20px;
+            }
+            h3 {
+              @include heading3;
+              text-align: left;
+              margin-bottom: 10px;
+            }
+            p {
+              @include paragraph;
+              width: 344px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}

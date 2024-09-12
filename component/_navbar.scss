@@ -1,0 +1,25 @@
+header #navbar{
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 40px;
+  ul{
+    li{
+      a{
+        font-size: 18px;
+        line-height: 26px;
+        margin-right: 50px;
+        color: $white_color;
+        transition: 0.4s;
+        &:hover{
+          color: #4756df;
+        }
+      }
+    }
+  }
+  button{
+    @include buttons;
+  }
+}

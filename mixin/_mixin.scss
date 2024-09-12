@@ -1,0 +1,30 @@
+@mixin buttons{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: $white_color;
+  padding: 15px 42px;
+  border: none;
+  border-radius: 10px;
+  background: $btn_bg;
+}
+@mixin paragraph{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $para_color;
+}
+@mixin heading2{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: $heading_color;
+  margin-bottom: 20px;
+}
+@mixin heading3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: $heading_color;
+}
